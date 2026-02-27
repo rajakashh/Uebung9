@@ -1,0 +1,5 @@
+This repository contains two Java programming assignments focusing on the use of ArrayList and object-oriented modeling. Each task is implemented in a separate package (h1, h2) and follows the exact structural and functional requirements described in the specification.
+
+The first assignment models a prioritized patient management system with the classes Patient and PrioListe. Patients are inserted into a sorted ArrayList based on their priority, where smaller priority values are treated first. The system allows adding patients in the correct position, retrieving and removing the next patient to be treated, and determining the position of a specific patient in the list.
+
+The second assignment simulates a bus system using the classes Passenger and Bus. Passengers have attributes such as planned stops, visited stops, and ticket status. The bus manages boarding, exiting at stops, detecting passengers without tickets, and transferring selected passengers to another bus. All list operations preserve order and maintain data consistency throughout the simulation.
